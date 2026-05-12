@@ -28,23 +28,33 @@ export const metadata: Metadata = {
     "Web3",
     "Blockchain",
     "Node.js",
+    "Rohan Singh Rawat",
+    "rsroff",
+    "Full Stack Developer",
   ],
   authors: [{ name: "Rohan Singh Rawat", url: "https://linkedin.com/in/rsroff" }],
+  creator: "Rohan Singh Rawat",
   openGraph: {
     type: "website",
+    url: "https://rsroff.dev",
+    siteName: "Rohan Singh Rawat",
     title: "Rohan Singh Rawat — Senior Software Engineer",
     description:
       "Senior software engineer building production apps at scale — hospitality platforms, crypto dashboards, and more.",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Rohan Singh Rawat Portfolio" }],
+    locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
+    site: "@rsroff",
+    creator: "@rsroff",
     title: "Rohan Singh Rawat — Senior Software Engineer",
     description:
       "Senior software engineer building production apps at scale — hospitality platforms, crypto dashboards, and more.",
-    images: ["/og-image.png"],
   },
   robots: { index: true, follow: true },
+  alternates: {
+    canonical: "https://rsroff.dev",
+  },
 };
 
 export default function RootLayout({

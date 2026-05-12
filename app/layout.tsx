@@ -17,11 +17,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL ?? "https://rsroff.dev"),
-  title: "Rohan Singh Rawat — Full-Stack Engineer",
+  title: "Rohan Singh Rawat — Senior Software Engineer",
   description:
-    "Portfolio of Rohan Singh Rawat, Full-Stack Software Engineer with 5+ years building production web applications across hospitality, blockchain, and e-commerce.",
+    "Portfolio of Rohan Singh Rawat, Senior Software Engineer with 5+ years building production web applications across hospitality, blockchain, and e-commerce.",
   keywords: [
-    "Full-Stack Engineer",
+    "Senior Software Engineer",
     "Next.js",
     "TypeScript",
     "React",
@@ -32,16 +32,16 @@ export const metadata: Metadata = {
   authors: [{ name: "Rohan Singh Rawat", url: "https://linkedin.com/in/rsroff" }],
   openGraph: {
     type: "website",
-    title: "Rohan Singh Rawat — Full-Stack Engineer",
+    title: "Rohan Singh Rawat — Senior Software Engineer",
     description:
-      "Full-stack engineer building production apps at scale — hospitality platforms, crypto dashboards, and more.",
+      "Senior software engineer building production apps at scale — hospitality platforms, crypto dashboards, and more.",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Rohan Singh Rawat Portfolio" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rohan Singh Rawat — Full-Stack Engineer",
+    title: "Rohan Singh Rawat — Senior Software Engineer",
     description:
-      "Full-stack engineer building production apps at scale — hospitality platforms, crypto dashboards, and more.",
+      "Senior software engineer building production apps at scale — hospitality platforms, crypto dashboards, and more.",
     images: ["/og-image.png"],
   },
   robots: { index: true, follow: true },

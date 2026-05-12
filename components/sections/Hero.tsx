@@ -32,7 +32,7 @@ export function Hero() {
             custom={0}
           >
             <span className="inline-block bg-primary border-2 border-foreground px-4 py-1.5 font-mono text-sm font-black uppercase tracking-widest shadow-[3px_3px_0px_#0A0A0A]">
-              [ Full-Stack Engineer ]
+              [ Senior Software Engineer ]
             </span>
           </motion.div>
 

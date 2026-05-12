@@ -1,6 +1,6 @@
 export const meta = {
   name: "Rohan Singh Rawat",
-  title: "Full-Stack Software Engineer",
+  title: "Senior Software Engineer",
   email: "rsrofficial99.work@gmail.com",
   phone: "+91 9807474610",
   linkedin: "https://linkedin.com/in/rsroff",
@@ -15,7 +15,7 @@ export const meta = {
     "I work best at the intersection of clean architecture and tangible product impact. Whether it's an NPM package, a real-time dashboard, or a multi-chain wallet system — I build it end to end.",
   ],
   quote: "Shipping fast isn't reckless — it's a skill.",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "https://drive.google.com/file/d/14TOjKQmIVyEF_lD6Gijcam-0U6nhVMFZ/view?usp=sharing",
 } as const;
 
 export const stats = [
@@ -38,7 +38,7 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     company: "Majestic Vacation Management",
-    role: "Full-Stack Software Engineer",
+    role: "Senior Software Engineer",
     period: "April 2025 – Present",
     location: "Remote",
     current: true,
